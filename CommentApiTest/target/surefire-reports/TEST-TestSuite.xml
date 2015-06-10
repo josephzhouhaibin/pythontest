@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="189" failures="19" name="TestSuite" time="12.127" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.40-b25"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zhoujoseph/Documents/workspace/CommentApiTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zhoujoseph/Documents/workspace/CommentApiTest"/>
+    <property name="java.runtime.version" value="1.8.0_40-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/zhoujoseph/Documents/workspace/CommentApiTest"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/32/glq8xkd52xj3mnsddlkfr39c0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/zhoujoseph/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1227228642254785776.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zhoujoseph/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/zhoujoseph/Documents/workspace/CommentApiTest/target/test-classes:/Users/zhoujoseph/Documents/workspace/CommentApiTest/target/classes:/Users/zhoujoseph/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/zhoujoseph/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/zhoujoseph/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/zhoujoseph/.m2/repository/org/testng/testng/6.4/testng-6.4.jar:/Users/zhoujoseph/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhoujoseph/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/zhoujoseph/.m2/repository/com/beust/jcommander/1.12/jcommander-1.12.jar:/Users/zhoujoseph/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/zhoujoseph/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar:/Users/zhoujoseph/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/zhoujoseph/.m2/repository/commons-codec/commons-codec/1.8/commons-codec-1.8.jar:/Users/zhoujoseph/.m2/repository/org/apache/commons/commons-email/1.2/commons-email-1.2.jar:/Users/zhoujoseph/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar:/Users/zhoujoseph/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/zhoujoseph/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar:/Users/zhoujoseph/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar:/Users/zhoujoseph/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/zhoujoseph/.m2/repository/org/apache/httpcomponents/httpmime/4.2/httpmime-4.2.jar:/Users/zhoujoseph/.m2/repository/org/json/json/20140107/json-20140107.jar:/Users/zhoujoseph/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zhoujoseph"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zhoujoseph"/>
+    <property name="java.class.path" value="/Applications/app/apache-maven-3.3.1/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_40"/>
+    <property name="java.ext.dirs" value="/Users/zhoujoseph/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/app/apache-maven-3.3.1"/>
+    <property name="localRepository" value="/Users/zhoujoseph/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="queryThread" time="1.008">
+    <failure message="expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.thread.QueryThread.queryThread(QueryThread.java:17)
+</failure>
+    <system-out>GET http://gentie.163.com:8181/api/v1/products/eecc698764a1403d846bef6f9a01d90d/threads/C4C4A5A11001768D HTTP/1.1
+status:404
+response content:{&quot;code&quot;:40402,&quot;message&quot;:&quot;No such thread&quot;}
+</system-out>
+  </testcase>
+  <testcase name="queryThread" time="0.018"/>
+  <testcase name="queryThread" time="0.022"/>
+  <testcase name="queryThread" time="0.025"/>
+  <testcase name="queryThread" time="0.017"/>
+  <testcase name="creatThread" time="0.864"/>
+  <testcase name="creatThread" time="0.031"/>
+  <testcase name="creatThread" time="0.028"/>
+  <testcase name="creatThread" time="0.028"/>
+  <testcase name="creatThread" time="0.038"/>
+  <testcase name="creatThread" time="0.028"/>
+  <testcase name="creatThread" time="0.027"/>
+  <testcase name="creatThread" time="0.858"/>
+  <testcase name="creatThread" time="0.141"/>
+  <testcase name="creatThread" time="0.798"/>
+  <testcase name="modifyRequest" time="0.524"/>
+  <testcase name="modifyRequest" time="0.311"/>
+  <testcase name="modifyRequest" time="0.313"/>
+  <testcase name="modifyRequest" time="0.161"/>
+  <testcase name="modifyRequest" time="0.026"/>
+  <testcase name="modifyRequest" time="0.029"/>
+  <testcase name="modifyRequest" time="0.139"/>
+  <testcase name="modifyRequest" time="0.377"/>
+  <testcase name="modifyRequest" time="0.415"/>
+  <testcase name="modifyRequest" time="0.206"/>
+  <testcase name="queryHotComment" time="0.037"/>
+  <testcase name="queryHotComment" time="0.025"/>
+  <testcase name="queryHotComment" time="0.025"/>
+  <testcase name="queryHotComment" time="0.026"/>
+  <testcase name="queryHotComment" time="0.027"/>
+  <testcase name="queryHotComment" time="0.024"/>
+  <testcase name="queryHotComment" time="0.024"/>
+  <testcase name="queryHotComment" time="0.02"/>
+  <testcase name="queryHotComment" time="0.02"/>
+  <testcase name="queryHotComment" time="0.017"/>
+  <testcase name="queryHotComment" time="0.02"/>
+  <testcase name="queryHotComment" time="0.035"/>
+  <testcase name="queryHotComment" time="0.014"/>
+  <testcase name="queryHotComment" time="0.017"/>
+  <testcase name="queryHotComment" time="0.017"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.014"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.013"/>
+  <testcase name="queryHotComment" time="0.016"/>
+  <testcase name="queryHotComment" time="0.022"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.012"/>
+  <testcase name="queryHotComment" time="0.011"/>
+  <testcase name="queryHotComment" time="0.022"/>
+  <testcase name="queryHotComment" time="0.017"/>
+  <testcase name="queryHotComment" time="0.023"/>
+  <testcase name="queryHotComment" time="0.019"/>
+  <testcase name="queryHotComment" time="0.018"/>
+  <testcase name="queryHotComment" time="0.017"/>
+  <testcase name="queryHotComment" time="0.014"/>
+  <testcase name="queryHotComment" time="0.015"/>
+  <testcase name="queryHotComment" time="0.015"/>
+  <testcase name="queryHotComment" time="0.016"/>
+  <testcase name="queryHotComment" time="0.014"/>
+  <testcase name="queryHotComment" time="0.056"/>
+  <testcase name="queryHotComment" time="0.037"/>
+  <testcase name="queryHotComment" time="0.026"/>
+  <testcase name="queryHotComment" time="0.027"/>
+  <testcase name="queryHotComment" time="0.025"/>
+  <testcase name="queryHotComment" time="0.023"/>
+  <testcase name="queryHotComment" time="0.026"/>
+  <testcase name="queryHotComment" time="0.021"/>
+  <testcase name="queryHotComment" time="0.024"/>
+  <testcase name="queryHotComment" time="0.024"/>
+  <testcase name="queryHotComment" time="0.027"/>
+  <testcase name="queryHotComment" time="0.024"/>
+  <testcase name="queryHotComment" time="0.021"/>
+  <testcase name="queryHotComment" time="0.03"/>
+  <testcase name="queryHotComment" time="0.027"/>
+  <testcase name="queryHotComment" time="0.071"/>
+  <testcase name="queryHotComment" time="0.025"/>
+  <testcase name="queryUserComment" time="0.061"/>
+  <testcase name="queryUserComment" time="0.047"/>
+  <testcase name="queryUserComment" time="0.039"/>
+  <testcase name="queryUserComment" time="0.036"/>
+  <testcase name="queryUserComment" time="0.039"/>
+  <testcase name="queryUserComment" time="0.036"/>
+  <testcase name="queryUserComment" time="0.039"/>
+  <testcase name="queryUserComment" time="0.031"/>
+  <testcase name="queryUserComment" time="0.038"/>
+  <testcase name="queryUserComment" time="0.036"/>
+  <testcase name="queryUserComment" time="0.03"/>
+  <testcase name="queryUserComment" time="0.025"/>
+  <testcase name="queryUserComment" time="0.028">
+    <failure message="expected:&amp;lt;400&amp;gt; but was:&amp;lt;422&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;400&amp;gt; but was:&amp;lt;422&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:48)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.comment.QueryUserComment.queryUserComment(QueryUserComment.java:17)
+</failure>
+    <system-out>GET http://gentie.163.com:8181/api/v1//products/eecc698764a1403d846bef6f9a01d90d/users/As/comments/0/10/100/50/10 HTTP/1.1
+status:422
+response content:{&quot;code&quot;:42213,&quot;message&quot;:&quot;Illegal parameters&quot;}
+</system-out>
+  </testcase>
+  <testcase name="queryUserComment" time="0.028"/>
+  <testcase name="queryUserComment" time="0.029"/>
+  <testcase name="queryUserComment" time="0.025"/>
+  <testcase name="queryUserComment" time="0.02"/>
+  <testcase name="queryUserComment" time="0.03"/>
+  <testcase name="queryUserComment" time="0.031"/>
+  <testcase name="queryUserComment" time="0.024"/>
+  <testcase name="queryUserComment" time="0.02"/>
+  <testcase name="queryUserComment" time="0.03"/>
+  <testcase name="queryUserComment" time="0.024"/>
+  <testcase name="queryUserComment" time="0.024"/>
+  <testcase name="queryUserComment" time="0.018"/>
+  <testcase name="queryUserComment" time="0.028"/>
+  <testcase name="queryUserComment" time="0.025"/>
+  <testcase name="queryUserComment" time="0.03"/>
+  <testcase name="queryComment" time="0.043">
+    <failure message="expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.comment.QueryComment.queryComment(QueryComment.java:15)
+</failure>
+    <system-out>GET http://gentie.163.com:8181/api/v1//products/eecc698764a1403d846bef6f9a01d90d/threads/A014A5A11001768D/comments/153697 HTTP/1.1
+status:404
+response content:{&quot;code&quot;:40403,&quot;message&quot;:&quot;No such comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="queryComment" time="0.024"/>
+  <testcase name="queryComment" time="0.034"/>
+  <testcase name="queryComment" time="0.027"/>
+  <testcase name="queryComment" time="0.023"/>
+  <testcase name="queryComment" time="0.019"/>
+  <testcase name="queryComment" time="0.018"/>
+  <testcase name="queryComment" time="0.021"/>
+  <testcase name="againstComment" time="0.028">
+    <failure message="expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpPostRequest(HttpRequest.java:81)
+	at com.netease.comment.AgainstComment.againstComment(AgainstComment.java:17)
+</failure>
+    <system-out>status:404
+response content:{&quot;code&quot;:40403,&quot;message&quot;:&quot;No such comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="againstComment" time="0.023"/>
+  <testcase name="againstComment" time="0.012"/>
+  <testcase name="againstComment" time="0.012"/>
+  <testcase name="againstComment" time="0.016"/>
+  <testcase name="againstComment" time="0.018"/>
+  <testcase name="againstComment" time="0.017"/>
+  <testcase name="voteComment" time="0.019">
+    <failure message="expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;200&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpPostRequest(HttpRequest.java:81)
+	at com.netease.comment.VoteComment.voteComment(VoteComment.java:18)
+</failure>
+    <system-out>status:404
+response content:{&quot;code&quot;:40403,&quot;message&quot;:&quot;No such comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="voteComment" time="0.013"/>
+  <testcase name="voteComment" time="0.011"/>
+  <testcase name="voteComment" time="0.019"/>
+  <testcase name="voteComment" time="0.015"/>
+  <testcase name="voteComment" time="0.015"/>
+  <testcase name="voteComment" time="0.014"/>
+  <testcase name="deleteComment" time="0.019">
+    <failure message="expected:&amp;lt;204&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;204&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at com.netease.comment.DeleteComment.deleteComment(DeleteComment.java:41)
+</failure>
+  </testcase>
+  <testcase name="deleteComment" time="0.013">
+    <failure message="expected:&amp;lt;204&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;204&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at com.netease.comment.DeleteComment.deleteComment(DeleteComment.java:41)
+</failure>
+  </testcase>
+  <testcase name="deleteComment" time="0.027"/>
+  <testcase name="deleteComment" time="0.02"/>
+  <testcase name="deleteComment" time="0.015"/>
+  <testcase name="deleteComment" time="0.014"/>
+  <testcase name="deleteComment" time="0.011"/>
+  <testcase name="deleteComment" time="0.014"/>
+  <testcase name="createComment" time="0.023">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.194"/>
+  <testcase name="createComment" time="0.025">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.027">
+    <failure message="expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.149"/>
+  <testcase name="createComment" time="0.023">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.023">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.053"/>
+  <testcase name="createComment" time="0.024">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.024">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.031">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.023">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.024">
+    <failure message="expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;201&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.035">
+    <failure message="expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="createComment" time="0.056"/>
+  <testcase name="createComment" time="0.027">
+    <failure message="expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&amp;lt;422&amp;gt; but was:&amp;lt;404&amp;gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+</failure>
+    <system-out>response content:{&quot;code&quot;:40406,&quot;message&quot;:&quot;No such parent comment&quot;}
+</system-out>
+  </testcase>
+  <testcase name="queryMyComment" time="0.024"/>
+  <testcase name="queryMyComment" time="0.018"/>
+  <testcase name="queryMyComment" time="0.017"/>
+  <testcase name="queryMyComment" time="0.052"/>
+  <testcase name="queryMyComment" time="0.025"/>
+  <testcase name="queryMyComment" time="0.255"/>
+  <testcase name="queryMyComment" time="0.016"/>
+  <testcase name="queryMyComment" time="0.014"/>
+  <testcase name="queryMyComment" time="0.014"/>
+  <testcase name="queryMyComment" time="0.016"/>
+  <testcase name="queryMyComment" time="0.016"/>
+  <testcase name="queryMyComment" time="0.015"/>
+  <testcase name="queryMyComment" time="0.032"/>
+  <testcase name="queryMyComment" time="0.026"/>
+  <testcase name="queryMyComment" time="0.022"/>
+  <testcase name="queryMyComment" time="0.023"/>
+  <testcase name="queryMyComment" time="0.014"/>
+  <testcase name="queryMyComment" time="0.013"/>
+  <testcase name="queryMyComment" time="0.017"/>
+  <testcase name="queryMyComment" time="0.018"/>
+  <testcase name="queryMyComment" time="0.017"/>
+  <testcase name="queryMyComment" time="0.01"/>
+  <testcase name="queryMyComment" time="0.022"/>
+  <testcase name="queryMyComment" time="0.015"/>
+  <testcase name="queryMyComment" time="0.013"/>
+  <testcase name="queryMyComment" time="0.012"/>
+  <testcase name="queryMyComment" time="0.016"/>
+  <testcase name="queryAuthUser" time="0.015"/>
+  <testcase name="queryAuthUser" time="0.013"/>
+  <testcase name="queryAuthUser" time="0.013"/>
+  <testcase name="queryAuthUser" time="0.019"/>
+  <testcase name="queryUser" time="0.014"/>
+  <testcase name="queryUser" time="0.01"/>
+  <testcase name="queryUser" time="0.018"/>
+  <testcase name="queryUser" time="0.019"/>
+  <testcase name="queryUser" time="0.015"/>
+</testsuite>

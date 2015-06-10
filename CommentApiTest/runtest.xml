@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" allow-return-values="true">
+    <test name="Test" preserve-order="true">
+        <classes>
+ 			<class name="com.netease.thread.QueryThread" >
+            </class>
+            <class name="com.netease.thread.CreateThread" >
+            </class>
+            <class name="com.netease.thread.ModifyThread" >
+            </class>
+            <class name="com.netease.comment.QueryNewComment" >
+            </class>
+            <class name="com.netease.comment.QueryHotComment" >
+            </class>
+            <class name="com.netease.comment.QueryUserComment" >
+            </class>
+            <class name="com.netease.comment.QueryComment" >
+            </class>
+            <class name="com.netease.comment.AgainstComment" >
+            </class>
+            <class name="com.netease.comment.VoteComment" >
+            </class> 
+            <class name="com.netease.comment.DeleteComment" >
+            </class> 
+            <class name="com.netease.comment.CreateComment" >
+            </class> 
+            <class name="com.netease.comment.QueryMyComment" >
+            </class> 
+            <class name="com.netease.user.QueryAuthUser" >
+            </class> 
+            <class name="com.netease.user.QueryUser" >
+            </class>
+        </classes>
+    </test>
+</suite>

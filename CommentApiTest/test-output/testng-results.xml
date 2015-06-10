@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="636" started-at="2015-06-08T02:47:17Z" finished-at="2015-06-08T02:47:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="636" started-at="2015-06-08T02:47:17Z" finished-at="2015-06-08T02:47:18Z">
+      <class name="com.netease.debug.Debug">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.netease.debug.Debug@63d4e2ba]" name="beforeTest" is-config="true" duration-ms="9" started-at="2015-06-08T10:47:17Z" finished-at="2015-06-08T10:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="queryThread(java.lang.String, java.lang.String, int)[pri:0, instance:com.netease.debug.Debug@63d4e2ba]" name="queryThread" duration-ms="607" started-at="2015-06-08T10:47:17Z" data-provider="dp" finished-at="2015-06-08T10:47:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A014A5A11001768D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eecc698764a1403d846bef6f9a01d90d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryThread -->
+      </class> <!-- com.netease.debug.Debug -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

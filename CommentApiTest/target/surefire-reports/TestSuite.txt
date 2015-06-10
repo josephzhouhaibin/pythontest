@@ -1,0 +1,197 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 189, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 12.137 sec <<< FAILURE!
+queryThread(com.netease.thread.QueryThread)  Time elapsed: 1.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.thread.QueryThread.queryThread(QueryThread.java:17)
+
+queryUserComment(com.netease.comment.QueryUserComment)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<422>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:48)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.comment.QueryUserComment.queryUserComment(QueryUserComment.java:17)
+
+queryComment(com.netease.comment.QueryComment)  Time elapsed: 0.044 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpGetRequest(HttpRequest.java:42)
+	at com.netease.comment.QueryComment.queryComment(QueryComment.java:15)
+
+againstComment(com.netease.comment.AgainstComment)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpPostRequest(HttpRequest.java:81)
+	at com.netease.comment.AgainstComment.againstComment(AgainstComment.java:17)
+
+voteComment(com.netease.comment.VoteComment)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.util.HttpRequest.httpPostRequest(HttpRequest.java:81)
+	at com.netease.comment.VoteComment.voteComment(VoteComment.java:18)
+
+deleteComment(com.netease.comment.DeleteComment)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at com.netease.comment.DeleteComment.deleteComment(DeleteComment.java:41)
+
+deleteComment(com.netease.comment.DeleteComment)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at com.netease.comment.DeleteComment.deleteComment(DeleteComment.java:41)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<422> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.036 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<422> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
+createComment(com.netease.comment.CreateComment)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<422> but was:<404>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.netease.util.ReturnCheck.returnCheck(ReturnCheck.java:42)
+	at com.netease.comment.CreateComment.createComment(CreateComment.java:48)
+
